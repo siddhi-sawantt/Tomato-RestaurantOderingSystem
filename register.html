@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TOMATO - Account Registration</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <table width="100%" cellpadding="10" bgcolor="#D32F2F">
+            <tr>
+                <td align="left">
+                    <font color="white" size="6"><b>🍅 TOMATO</b></font>
+                </td>
+                <td align="right">
+                    <a href="index.html"><font color="white">Home</font></a> | 
+                    <a href="login.html"><font color="white">Login</font></a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <br><br>
+
+    <!-- Registration Form Area -->
+    <main>
+        <table align="center" border="1" cellpadding="20" width="500">
+            <tr>
+                <td>
+                    <h2 align="center">Create an Account</h2>
+                    <p align="center">Sign up to start ordering from TOMATO</p>
+                    
+                    <form action="login.html" method="get">
+                        <table width="100%" cellpadding="6">
+                            <tr>
+                                <td><label for="fullname"><b>Full Name:</b></label></td>
+                                <td><input type="text" id="fullname" name="fullname" required placeholder="John Doe" style="width: 95%;"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="reg-email"><b>Email Address:</b></label></td>
+                                <td><input type="email" id="reg-email" name="email" required placeholder="name@example.com" style="width: 95%;"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phone"><b>Phone Number:</b></label></td>
+                                <td><input type="tel" id="phone" name="phone" required placeholder="123456789" style="width: 95%;"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="reg-password"><b>Password:</b></label></td>
+                                <td><input type="password" id="reg-password" name="password" required style="width: 95%;"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="address"><b>Delivery Address:</b></label></td>
+                                <td><textarea id="address" name="address" rows="3" style="width: 95%;" required placeholder="Enter street address..."></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <br>
+                                    <button type="submit" style="padding: 8px 25px; font-size: 15px; cursor: pointer;">Complete Registration</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <hr size="1" color="#CCCCCC">
+                    <!-- Required Link: Once registration is done / prompt to login -->
+                    <p align="center">Already registered? Click here to <a href="login.html"><b>Go to Login Page</b></a></p>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+</html>

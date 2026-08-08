@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TOMATO - Login</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <table width="100%" cellpadding="10" bgcolor="#D32F2F">
+            <tr>
+                <td align="left">
+                    <font color="white" size="6"><b>🍅 TOMATO</b></font>
+                </td>
+                <td align="right">
+                    <a href="index.html"><font color="white">Home</font></a> | 
+                    <a href="register.html"><font color="white">Register</font></a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <br><br>
+
+    <!-- Login Form Area -->
+    <main>
+        <table align="center" border="1" cellpadding="20" width="400">
+            <tr>
+                <td align="center">
+                    <h2>Customer Login</h2>
+                    <p>Enter your details to access your account</p>
+                    
+                    <!-- Redirects directly to catalogue.html on form submission -->
+                    <form action="catalogue.html" method="get">
+                        <table width="100%" cellpadding="8">
+                            <tr>
+                                <td align="left"><label for="email"><b>Email Address:</b></label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="email" id="email" name="email" required placeholder="example@domain.com" style="width: 95%; padding: 6px;"></td>
+                            </tr>
+                            <tr>
+                                <td align="left"><label for="password"><b>Password:</b></label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" id="password" name="password" required placeholder="Enter password" style="width: 95%; padding: 6px;"></td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <br>
+                                    <button type="submit" style="padding: 8px 25px; font-size: 15px; cursor: pointer;">Login</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <hr size="1" color="#CCCCCC">
+                    <p>Don't have an account? <a href="register.html">Register here</a></p>
+                    <p><a href="index.html">← Back to Home Page</a></p>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+</html>
