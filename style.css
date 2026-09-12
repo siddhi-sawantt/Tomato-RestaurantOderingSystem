@@ -1,0 +1,137 @@
+body {
+    background-color: #FFE0B2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3E2723;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D32F2F;
+    padding: 10px 20px;
+}
+
+header table {
+    background-color: transparent !important;
+}
+
+header font, 
+header a, 
+header a font {
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #FFB74D !important;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #D32F2F;
+}
+
+h2, h3 {
+    color: #E65100;
+}
+
+a {
+    color: #D32F2F;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E65100;
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table[border="1"], 
+table[border="1"] td, 
+table[border="1"] th {
+    border: 1px solid #FFB74D !important;
+}
+
+main table {
+    background-color: #FFF3E0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+th {
+    background-color: #FFE0B2 !important;
+    color: #E65100;
+    font-weight: bold;
+}
+
+tr[bgcolor="#F5F5F5"] {
+    background-color: #FFE0B2 !important;
+}
+
+img {
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+button, input[type="submit"] {
+    background-color: #D32F2F;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #E65100;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    border: 1px solid #FFB74D;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #E65100;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #FFB74D;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #3E2723;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer table {
+    background-color: transparent !important;
+}
+
+footer font {
+    color: #FFE0B2 !important;
+}
